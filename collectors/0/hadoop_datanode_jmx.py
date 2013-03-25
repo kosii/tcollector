@@ -26,7 +26,6 @@ USER = "hdfs"
 
 # We add those files to the classpath if they exist.
 CLASSPATH = [
-    "/usr/lib/jvm/java-6-sun/lib/tools.jar",
     "/usr/java/latest/lib/tools.jar",
 ]
 
