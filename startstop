@@ -2,6 +2,7 @@
 
 # Semi Universal start-stop script
 
+[ -f /etc/sysconfig/tcollector ] && . /etc/sysconfig/tcollector
 # TSD_HOST=dns.name.of.tsd
 TCOLLECTOR_PATH=${TCOLLECTOR_PATH-'/usr/local/tcollector'}
 test -n "$TSD_HOST" || {
