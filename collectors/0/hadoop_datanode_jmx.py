@@ -22,11 +22,12 @@ import time
 
 # If this user doesn't exist, we'll exit immediately.
 # If we're running as root, we'll drop privileges using this user.
-USER = "hadoop"
+USER = "hdfs"
 
 # We add those files to the classpath if they exist.
 CLASSPATH = [
     "/usr/lib/jvm/java-6-sun/lib/tools.jar",
+    "/usr/java/latest/lib/tools.jar",
 ]
 
 # Map certain JVM stats so they are unique and shorter
